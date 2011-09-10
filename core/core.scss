@@ -1,0 +1,23 @@
+/* core */
+// TODO: make debug inclusions a build parameter
+@import "libraries";
+
+@import "template/template";
+// @import "template/template_debug";
+
+@import "grid/grids";
+// @import "grid/grids_debug";
+
+@import "module/mod";
+@import "module/mod_skins";
+// @import "module/mod_debug";
+
+@import "media/media";
+// @import "media/media_debug";
+
+@import "content";
+@import "heading/heading";
+@import "spacing/space";
+@import "table/table";
+@import "table/table_skins";
+// @import "table/table_debug";
